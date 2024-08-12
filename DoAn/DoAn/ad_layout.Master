@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ad_layout.master.cs" Inherits="DoAn.ad_layout" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: rgba(0,0,0,.03);
+
+            font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+        }
+
+        .header{
+            background-color: #ffd400;
+            padding: 0;
+            margin: 0;
+            position: fixed;
+            width: 100%;
+            margin-bottom: 50px;
+            z-index:1;
+        }
+
+        .top-header{
+            height: 50px;
+            display: flex;
+            align-items:center;
+        }
+
+        .lb-logout {
+            margin-left: 1270px;
+            margin-right: 10px;
+        }
+
+        .lb-adminname {
+            font-weight:bold;
+        }
+
+        .content-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .side-menu{
+            width: 10%;
+            position: fixed;
+            top: 80px;
+            left: 30px;
+        }
+
+        .main-content{
+            margin-left: 150px;
+            
+        }
+    </style>
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="top-header">
+                <asp:LinkButton ID="lbLogout" runat="server" CssClass="lb-logout lb" OnClick="lbLogout_Click">Đăng xuất</asp:LinkButton>
+                <asp:DataList ID="DataList1" runat="server">
+                    <ItemTemplate>
+                        <asp:Label ID="lbAdminName" runat="server" CssClass="lb-adminname lb" Text='<%# Eval("TENDANGNHAP") %>' ></asp:Label>
+                    </ItemTemplate>
+                </asp:DataList>
+            </div>
+        </div>
+        <div class="content-container">
+            <div class="side-menu">
+                <a href="ad_default.aspx">Quản lý sản phẩm</a>
+                <br />
+                <a href="ad_usersmanage.aspx">Quản lý người dùng</a>
+            </div>
+            <div class="main-content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

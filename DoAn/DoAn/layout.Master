@@ -1,0 +1,353 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="layout.master.cs" Inherits="DoAn.layout" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat", sans-serif;
+            background-color: #eceaea;
+            display: grid;
+            grid-template-rows: auto auto auto;
+            grid-template-areas: "header" "main" "footer";
+        }
+
+        .header-top-parent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .header-top-user {
+            position: absolute;
+            right: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header-top .logo-container {
+            margin-right: 20px;
+        }
+
+        .header-top, .searching-section {
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: space-between;
+        }
+
+            .header-top .searching-section #tbSearch {
+                width: 500px;
+                height: 30px;
+                margin-right: 10px;
+            }
+
+            .header-top .searching-section #btnSearch {
+                height: 25px;
+            }
+
+        .center-username-notify {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn-notify {
+            width: 40px;
+        }
+
+        .lb-count-noti {
+            position: relative;
+            right: 20px;
+            top: 10px;
+            background-color: red;
+            color: white;
+            width: 15px;
+            text-align: center;
+            border-radius: 30px;
+        }
+
+        .lb-username {
+            margin-left: 10px;
+        }
+
+        .menu,
+        .products-list,
+        .products-list a {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: space-between;
+        }
+
+        header {
+            background-color: #ffd400;
+            position: fixed;
+            box-sizing: border-box;
+            width: 100%;
+            z-index: 100;
+        }
+
+            header img {
+                width: 40px;
+                height: 40px;
+            }
+
+        #logoutlink {
+            background: none;
+            border: none;
+            color: inherit;
+            font: inherit;
+            cursor: pointer;
+            padding: 0;
+        }
+
+        .checklogin {
+            display: none;
+        }
+
+        header .products {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+            header .products .products-list {
+                list-style: none;
+            }
+
+                header .products .products-list li {
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    padding-left: 8px;
+                    padding-right: 8px;
+                }
+
+                    header .products .products-list li:hover, header .products .products-list li:active {
+                        background-color: rgb(219, 219, 10);
+                        border-radius: 10px;
+                    }
+
+                        header .products .products-list li:hover p, header .products .products-list li:active p {
+                            color: white;
+                        }
+
+                    header .products .products-list li a {
+                        text-decoration: none;
+                    }
+
+                        header .products .products-list li a img {
+                            width: 30px;
+                            height: auto;
+                        }
+
+        .img-trans:hover {
+            transform: translateY(-10px);
+            transition-property: transform;
+            transition-duration: 200ms;
+        }
+
+
+        .footer-list {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: space-between;
+            grid-area: footer;
+            margin-top: 100px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            justify-content: center;
+            align-items: start;
+            background-color: white;
+        }
+
+            .footer-list div {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                align-content: space-between;
+                flex-direction: column;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+
+            .footer-list a {
+                text-decoration: none;
+                align-self: start;
+                color: black;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+
+                .footer-list a:hover {
+                    color: rgb(67, 67, 246);
+                }
+
+                .footer-list a span {
+                    font-weight: bold;
+                    color: blue;
+                }
+
+            .footer-list p {
+                align-self: start;
+                color: black;
+                font-weight: bold;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+
+            .user-section{
+                text-decoration:none;
+                color: black;
+                font-weight:bold;
+                font-size: medium;
+                font-style:normal;
+            }
+    </style>
+    <form id="form1" runat="server">
+        <header class="test">
+            <div class="header-top-parent">
+                <div class="header-top">
+                    <div class="logo-container">
+                        <a href="default.aspx">
+                            <img src="image/tgdd-icon.png" title="Trang chủ"></a>
+                    </div>
+                    <div class="searching-section">
+                        <asp:TextBox ID="tbSearch" runat="server"></asp:TextBox>
+                        <asp:ImageButton ID="btnSearch" runat="server" ImageUrl="~/image/search.png" OnClick="btnSearch_Click" />
+                    </div>
+                    <asp:Label ID="checklogin" runat="server" CssClass="checklogin"></asp:Label>
+                </div>
+                <div class="header-top-user">
+                    <div class="user-section">
+                        <asp:LinkButton ID="logoutlink" runat="server" Text="Đăng xuất" OnClick="logoutlink_Click" CssClass="logout-link"></asp:LinkButton>
+                        <a href="login.aspx" id="login-link">Đăng nhập</a>
+                    </div>
+                    <asp:DataList ID="dlUser" runat="server">
+                        <ItemTemplate>
+                            <div class="center-username-notify">
+                                <asp:LinkButton ID="lbusername" runat="server" Text='<%# Eval("TENNGUOIDUNG") %>' OnClick="lbusername_Click" CssClass="lb-username"></asp:LinkButton>
+                                <asp:ImageButton ID="imgNotify" runat="server" ImageUrl="~/image/notification.png" OnClick="imgNotify_Click" CssClass="btn-notify" />
+                                <asp:Label ID="lbCountNoti" runat="server" CssClass="lb-count-noti"></asp:Label>
+                            </div>
+
+                        </ItemTemplate>
+                    </asp:DataList>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="products">
+                    <ul class="products-list">
+                        <li>
+                            <asp:LinkButton ID="lbIphone" runat="server" CssClass="lb-brand" OnClick="lbIphone_Click">iPhone</asp:LinkButton></li>
+                        <li>
+                            <asp:LinkButton ID="lbOppo" runat="server" CssClass="lb-brand" OnClick="lbOppo_Click">Oppo</asp:LinkButton></li>
+                        <li>
+                            <asp:LinkButton ID="lbRealme" runat="server" CssClass="lb-brand" OnClick="lbRealme_Click">Realme</asp:LinkButton></li>
+                        <li>
+                            <asp:LinkButton ID="lbRedmi" runat="server" CssClass="lb-brand" OnClick="lbRedmi_Click">Vivo</asp:LinkButton></li>
+                        <li>
+                            <asp:LinkButton ID="lbSamsung" runat="server" CssClass="lb-brand" OnClick="lbSamsung_Click">Samsung</asp:LinkButton></li>
+                        <li>
+                            <asp:LinkButton ID="lbXiaomi" runat="server" CssClass="lb-brand" OnClick="lbXiaomi_Click">Xiaomi</asp:LinkButton></li>
+                        <li>
+                            <asp:ImageButton ID="btnCart" runat="server" ImageUrl="~/image/cart.png" OnClick="btnCart_Click" /></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            <div class="footer-list">
+                <div class="list-1">
+                    <a href="">Tích điểm Quà tặng VIP</a>
+                    <a href="">Lịch sử mua hàng</a>
+                    <a href="">Tìm hiểu về mua trả góp</a>
+                    <a href="">Chính sách bảo hành</a>
+                </div>
+                <div class="list-2">
+                    <a href="">Giới thiệu công ty MWG</a>
+                    <a href="">Tuyển dụng</a>
+                    <a href="">Gửi góp ý, khiếu nại</a>
+                    <a href="">Tìm siêu thị (3.385 shop)</a>
+                    <a href="">Xem bản mobile</a>
+                </div>
+                <div class="list-3">
+                    <p>Tổng đài hỗ trợ (Miễn phí gọi)</p>
+                    <a href="">Gọi mua: <span>1800.1060</span>(7:30 - 22:00)</a>
+                    <a href="">Khiếu nại: <span>1800.1062</span>(8:00 - 21:30)</a>
+                    <a href="">Bảo hành: <span>1800.1065</span>(8:00 - 21:00)</a>
+                </div>
+            </div>
+        </footer>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.js"></script>
+    <script>
+        window.onload = function () {
+            var loginlink = document.getElementById('login-link');
+            var logoutlink = document.getElementById('<%= logoutlink.ClientID %>');
+            var loginname = document.getElementById('<%= checklogin.ClientID %>').textContent;
+            if (loginname !== null && loginname !== "") {
+                // Nếu username không rỗng, ẩn label
+                loginlink.style.display = 'none';
+                logoutlink.style.display = 'block';
+            } else {
+                // Nếu username rỗng, hiển thị label
+                loginlink.style.display = 'block';
+                logoutlink.style.display = 'none';
+            }
+
+            var test = document.getElementById('test');
+            test.style.backgroundColor = 'red';
+
+
+            //slide
+
+        //section 1 slider
+        const prevSection1 = document.querySelector('.ads-banner-list-wrapper .prev-button');
+        const nextSection1 = document.querySelector('.ads-banner-list-wrapper .next-button');
+
+        const section1Slider = tns({
+            container: ".ads-banner-list",
+            items: 2,
+            slideBy: "page",
+            mouseDrag: true,
+            swipeAngle: false,
+            speed: 400,
+            mouseDrag: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            prevButton: prevSection1,
+            nextButton: nextSection1
+        });
+
+        };
+    </script>
+</body>
+</html>

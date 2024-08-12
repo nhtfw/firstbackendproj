@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="login_and_logout.master.cs" Inherits="DoAn.login_and_logout" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat", sans-serif;
+            background-color: #eceaea;
+            display: grid;
+            grid-template-rows: auto auto auto;
+            grid-template-areas: "header" "main" "footer";
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 50px;
+            background-color: #ffd400;
+        }
+
+        .icon {
+            margin-right: 20px;
+        }
+
+            .icon img {
+                height: 100px;
+            }
+
+        header .header-title {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+    <form id="form1" runat="server">
+        <header>
+            <a href="default.aspx" class="icon">
+                <image src="image/tgdd-icon.png" title="Trang chủ"></image>
+            </a>
+            <p class="header-title">Đăng nhập</p>
+        </header>
+        <main>
+            <img src="image/login-image.png" />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </main>
+    </form>
+</body>
+</html>

@@ -1,0 +1,112 @@
+C:\Users\odink\source\repos\DoAn\DoAn\bin\DoAn.dll.config
+C:\Users\odink\source\repos\DoAn\DoAn\bin\DoAn.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\DoAn.pdb
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\csc.exe
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\csc.exe.config
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\csc.rsp
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\csi.exe
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\csi.exe.config
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\csi.rsp
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.AppContext.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Console.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.IO.Compression.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.IO.Pipes.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Security.Claims.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.ValueTuple.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Xml.XPath.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\vbc.exe
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\vbc.exe.config
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\vbc.rsp
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe
+C:\Users\odink\source\repos\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\odink\source\repos\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\odink\source\repos\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\odink\source\repos\DoAn\DoAn\obj\Debug\DoAn.csprojAssemblyReference.cache
+C:\Users\odink\source\repos\DoAn\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
+C:\Users\odink\source\repos\DoAn\DoAn\obj\Debug\DoAn.csproj.CopyComplete
+C:\Users\odink\source\repos\DoAn\DoAn\obj\Debug\DoAn.dll
+C:\Users\odink\source\repos\DoAn\DoAn\obj\Debug\DoAn.pdb
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\DoAn.dll.config
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\DoAn.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\DoAn.pdb
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\csc.exe
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\csc.exe.config
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\csc.rsp
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\csi.exe
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\csi.exe.config
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\csi.rsp
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.AppContext.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Console.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.IO.Compression.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.IO.Pipes.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Security.Claims.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.ValueTuple.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Xml.XPath.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\vbc.exe
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\vbc.exe.config
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\vbc.rsp
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\obj\Debug\DoAn.csprojAssemblyReference.cache
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\obj\Debug\DoAn.csproj.CopyComplete
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\obj\Debug\DoAn.dll
+C:\Users\odink\OneDrive\Desktop\hoc lap trinh\git\proj\DoAn\DoAn\obj\Debug\DoAn.pdb
